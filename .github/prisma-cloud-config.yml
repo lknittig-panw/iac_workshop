@@ -20,4 +20,4 @@ failure_criteria_for_creating_issues:
   high: 1
   medium: 1
   low: 1
-  operator: and
+  operator: or
