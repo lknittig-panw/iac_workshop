@@ -43,3 +43,7 @@ variable use_public_ip {
   default = true 
 }
 
+variable test_prisma {
+  default = true
+  description = "attempt to trigger a scan"
+}
