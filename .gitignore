@@ -13,3 +13,5 @@ terraform/aws/terraform.tfvars
 *.log
 
 puppetlabs/puppet/ssl
+
+.vscode
