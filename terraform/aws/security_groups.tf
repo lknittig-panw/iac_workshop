@@ -1,5 +1,3 @@
-# Our default security group to access
-# the instances over SSH and HTTP
 resource "aws_security_group" "iac_sec_grp" {
   name        = "iac_sec_grp"
   description = "Used in the terraform"
@@ -21,5 +19,3 @@ resource "aws_security_group" "iac_sec_grp" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 }
-
-

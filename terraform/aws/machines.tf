@@ -30,5 +30,3 @@ resource "aws_instance" "franklin-iac" {
     ]
   }
 }
-
-
