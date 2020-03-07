@@ -42,4 +42,3 @@ variable "key_path" {
 variable use_public_ip { 
   default = true 
 }
-
